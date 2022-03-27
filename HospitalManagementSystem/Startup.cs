@@ -1,4 +1,5 @@
 using HospitalManagementSystem.Data;
+using HospitalManagementSystem.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -30,6 +31,7 @@ namespace HospitalManagementSystem
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
+
             services.AddDatabaseDeveloperPageExceptionFilter();
 
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
@@ -38,7 +40,7 @@ namespace HospitalManagementSystem
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env) //, IServiceProvider services
         {
             if (env.IsDevelopment())
             {
@@ -66,6 +68,28 @@ namespace HospitalManagementSystem
                     pattern: "{controller=Home}/{action=Index}/{id?}");
                 endpoints.MapRazorPages();
             });
+
+            //CreateUserRoles(services).Wait();
         }
+        //private async Task CreateUserRoles(IServiceProvider serviceProvider)
+        //{
+        //    var RoleManager = serviceProvider.GetRequiredService<RoleManager<IdentityRole>>();
+        //    var UserManager = serviceProvider.GetRequiredService<UserManager<IdentityUser>>();
+
+
+        //    IdentityResult roleResult;
+        //    //Adding Addmin Role  
+        //    var roleCheck = await RoleManager.RoleExistsAsync("Doctor");
+        //    if (!roleCheck)
+        //    {
+        //        //create the roles and seed them to the database  
+        //        roleResult = await RoleManager.CreateAsync(new IdentityRole("Doctor"));
+        //    }
+        //    //Assign Admin role to the main User here we have given our newly loregistered login id for Admin management  
+        //    //IdentityUser user = await UserManager.FindByEmailAsync("admin@gmail.com");
+        //    //var User = new IdentityUser();
+        //    //await UserManager.AddToRoleAsync(user, "Admin");
+
+        //}
     }
 }
