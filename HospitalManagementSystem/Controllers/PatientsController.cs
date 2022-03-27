@@ -20,10 +20,32 @@ namespace HospitalManagementSystem.Controllers
         }
 
         // GET: Patients
-        public async Task<IActionResult> Index()
-        {
-            return View(await _context.Patient.ToListAsync());
-        }
+         public async Task<IActionResult> Index(string searchstr)
+         {
+             var Patients = from p in _context.Patient
+                          select p;
+
+           if (!String.IsNullOrEmpty(searchstr))
+            {
+                 Patients = Patients.Where(s => s.PatientName!.Contains(searchstr));
+            }
+
+             return View(await Patients.ToListAsync());
+         }
+
+        // added
+        // public async Task<IActionResult> Index(string searchstr)
+        // {
+        //     var Patients = from p in _context.Patient
+        //                  select p;
+
+        //   if (!String.IsNullOrEmpty(searchstr))
+        //     {
+        //         Patients = Patients.Where(s => s.PatientName.Contains(searchstr));
+        //     }
+
+        //     return View(await Patients.ToListAsync());
+        // }
 
         // GET: Patients/Details/5
         public async Task<IActionResult> Details(int? id)
