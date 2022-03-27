@@ -13,6 +13,7 @@ namespace HospitalManagementSystem.Data
             : base(options)
         {
         }
-        public DbSet<HospitalManagementSystem.Models.Patient> Patient { get; set; }
+        public DbSet<Patient> Patient { get; set; }
+        public DbSet<Staff> Staff { get; set; }
     }
 }
