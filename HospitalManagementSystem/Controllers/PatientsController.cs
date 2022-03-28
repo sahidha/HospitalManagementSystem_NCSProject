@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using HospitalManagementSystem.Data;
 using HospitalManagementSystem.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace HospitalManagementSystem.Controllers
 {
@@ -20,12 +21,43 @@ namespace HospitalManagementSystem.Controllers
         }
 
         // GET: Patients
+<<<<<<< Updated upstream
         public async Task<IActionResult> Index()
         {
             return View(await _context.Patient.ToListAsync());
         }
+=======
+        [Authorize]
+        public async Task<IActionResult> Index(string searchstr)
+         {
+             var Patients = from p in _context.Patient
+                          select p;
+
+           if (!String.IsNullOrEmpty(searchstr))
+            {
+                 Patients = Patients.Where(s => s.PatientName!.Contains(searchstr));
+            }
+
+             return View(await Patients.ToListAsync());
+         }
+
+        // added
+        // public async Task<IActionResult> Index(string searchstr)
+        // {
+        //     var Patients = from p in _context.Patient
+        //                  select p;
+
+        //   if (!String.IsNullOrEmpty(searchstr))
+        //     {
+        //         Patients = Patients.Where(s => s.PatientName.Contains(searchstr));
+        //     }
+
+        //     return View(await Patients.ToListAsync());
+        // }
+>>>>>>> Stashed changes
 
         // GET: Patients/Details/5
+        [Authorize]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -44,6 +76,7 @@ namespace HospitalManagementSystem.Controllers
         }
 
         // GET: Patients/Create
+        [Authorize]
         public IActionResult Create()
         {
             return View();
@@ -52,6 +85,7 @@ namespace HospitalManagementSystem.Controllers
         // POST: Patients/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("PatientID,PatientName,Description,DateOfIssue,DoctorInChargeId")] Patient patient)
@@ -66,6 +100,7 @@ namespace HospitalManagementSystem.Controllers
         }
 
         // GET: Patients/Edit/5
+        [Authorize]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -84,6 +119,7 @@ namespace HospitalManagementSystem.Controllers
         // POST: Patients/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("PatientID,PatientName,Description,DateOfIssue,DoctorInChargeId")] Patient patient)
@@ -117,6 +153,7 @@ namespace HospitalManagementSystem.Controllers
         }
 
         // GET: Patients/Delete/5
+        [Authorize]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -135,6 +172,7 @@ namespace HospitalManagementSystem.Controllers
         }
 
         // POST: Patients/Delete/5
+        [Authorize]
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
@@ -145,6 +183,7 @@ namespace HospitalManagementSystem.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+        [Authorize]
         private bool PatientExists(int id)
         {
             return _context.Patient.Any(e => e.PatientID == id);
