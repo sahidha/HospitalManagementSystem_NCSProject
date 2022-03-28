@@ -20,6 +20,7 @@ namespace HospitalManagementSystem.Controllers
         }
 
         // GET: Patients
+        [Microsoft.AspNetCore.Authorization.Authorize]
          public async Task<IActionResult> Index(string searchstr)
          {
              var Patients = from p in _context.Patient
