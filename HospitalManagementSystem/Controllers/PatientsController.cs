@@ -22,11 +22,14 @@ namespace HospitalManagementSystem.Controllers
 
         // GET: Patients
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         public async Task<IActionResult> Index()
         {
             return View(await _context.Patient.ToListAsync());
         }
 =======
+=======
+>>>>>>> Stashed changes
         [Authorize]
         public async Task<IActionResult> Index(string searchstr)
          {

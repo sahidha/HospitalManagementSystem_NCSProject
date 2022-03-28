@@ -1,5 +1,9 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 #pragma checksum "C:\Users\LENOVO 310\Documents\GitHub\HospitalManagementSystem_NCSProject\HospitalManagementSystem\Views\Patients\Index.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "2dff7439c69e80ed81c2840efd496b51b1255194"
+=======
+#pragma checksum "C:\Users\LENOVO 310\Documents\GitHub\HospitalManagementSystem_NCSProject\HospitalManagementSystem\Views\Patients\Index.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "48c57fb8d36096abab88d10dcc249c01b8f98cca"
+>>>>>>> Stashed changes
 =======
 #pragma checksum "C:\Users\LENOVO 310\Documents\GitHub\HospitalManagementSystem_NCSProject\HospitalManagementSystem\Views\Patients\Index.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "48c57fb8d36096abab88d10dcc249c01b8f98cca"
 >>>>>>> Stashed changes
@@ -75,7 +79,11 @@ using HospitalManagementSystem.Models;
 #nullable disable
             WriteLiteral("\r\n<h1>Index</h1>\r\n\r\n<p>\r\n    ");
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2dff7439c69e80ed81c2840efd496b51b12551944847", async() => {
+=======
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "48c57fb8d36096abab88d10dcc249c01b8f98cca5736", async() => {
+>>>>>>> Stashed changes
 =======
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "48c57fb8d36096abab88d10dcc249c01b8f98cca5736", async() => {
 >>>>>>> Stashed changes
@@ -121,6 +129,9 @@ using HospitalManagementSystem.Models;
             WriteLiteral("\r\n<table class=\"table\">\r\n    <thead>\r\n        <tr>\r\n            <th>\r\n                ");
 #nullable restore
 #line 22 "C:\Users\LENOVO 310\Documents\GitHub\HospitalManagementSystem_NCSProject\HospitalManagementSystem\Views\Patients\Index.cshtml"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
            Write(Html.DisplayNameFor(model => model.PatientName));
 
@@ -130,7 +141,11 @@ using HospitalManagementSystem.Models;
             WriteLiteral("\r\n            </th>\r\n            <th>\r\n                ");
 #nullable restore
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 #line 19 "C:\Users\LENOVO 310\Documents\GitHub\HospitalManagementSystem_NCSProject\HospitalManagementSystem\Views\Patients\Index.cshtml"
+=======
+#line 25 "C:\Users\LENOVO 310\Documents\GitHub\HospitalManagementSystem_NCSProject\HospitalManagementSystem\Views\Patients\Index.cshtml"
+>>>>>>> Stashed changes
 =======
 #line 25 "C:\Users\LENOVO 310\Documents\GitHub\HospitalManagementSystem_NCSProject\HospitalManagementSystem\Views\Patients\Index.cshtml"
 >>>>>>> Stashed changes
@@ -142,7 +157,11 @@ using HospitalManagementSystem.Models;
             WriteLiteral("\r\n            </th>\r\n            <th>\r\n                ");
 #nullable restore
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 #line 22 "C:\Users\LENOVO 310\Documents\GitHub\HospitalManagementSystem_NCSProject\HospitalManagementSystem\Views\Patients\Index.cshtml"
+=======
+#line 28 "C:\Users\LENOVO 310\Documents\GitHub\HospitalManagementSystem_NCSProject\HospitalManagementSystem\Views\Patients\Index.cshtml"
+>>>>>>> Stashed changes
 =======
 #line 28 "C:\Users\LENOVO 310\Documents\GitHub\HospitalManagementSystem_NCSProject\HospitalManagementSystem\Views\Patients\Index.cshtml"
 >>>>>>> Stashed changes
@@ -154,7 +173,11 @@ using HospitalManagementSystem.Models;
             WriteLiteral("\r\n            </th>\r\n            <th>\r\n                ");
 #nullable restore
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 #line 25 "C:\Users\LENOVO 310\Documents\GitHub\HospitalManagementSystem_NCSProject\HospitalManagementSystem\Views\Patients\Index.cshtml"
+=======
+#line 31 "C:\Users\LENOVO 310\Documents\GitHub\HospitalManagementSystem_NCSProject\HospitalManagementSystem\Views\Patients\Index.cshtml"
+>>>>>>> Stashed changes
 =======
 #line 31 "C:\Users\LENOVO 310\Documents\GitHub\HospitalManagementSystem_NCSProject\HospitalManagementSystem\Views\Patients\Index.cshtml"
 >>>>>>> Stashed changes
@@ -166,7 +189,11 @@ using HospitalManagementSystem.Models;
             WriteLiteral("\r\n            </th>\r\n            <th></th>\r\n        </tr>\r\n    </thead>\r\n    <tbody>\r\n");
 #nullable restore
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 #line 31 "C:\Users\LENOVO 310\Documents\GitHub\HospitalManagementSystem_NCSProject\HospitalManagementSystem\Views\Patients\Index.cshtml"
+=======
+#line 37 "C:\Users\LENOVO 310\Documents\GitHub\HospitalManagementSystem_NCSProject\HospitalManagementSystem\Views\Patients\Index.cshtml"
+>>>>>>> Stashed changes
 =======
 #line 37 "C:\Users\LENOVO 310\Documents\GitHub\HospitalManagementSystem_NCSProject\HospitalManagementSystem\Views\Patients\Index.cshtml"
 >>>>>>> Stashed changes
@@ -178,7 +205,11 @@ using HospitalManagementSystem.Models;
             WriteLiteral("        <tr>\r\n            <td>\r\n                ");
 #nullable restore
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 #line 34 "C:\Users\LENOVO 310\Documents\GitHub\HospitalManagementSystem_NCSProject\HospitalManagementSystem\Views\Patients\Index.cshtml"
+=======
+#line 40 "C:\Users\LENOVO 310\Documents\GitHub\HospitalManagementSystem_NCSProject\HospitalManagementSystem\Views\Patients\Index.cshtml"
+>>>>>>> Stashed changes
 =======
 #line 40 "C:\Users\LENOVO 310\Documents\GitHub\HospitalManagementSystem_NCSProject\HospitalManagementSystem\Views\Patients\Index.cshtml"
 >>>>>>> Stashed changes
@@ -190,7 +221,11 @@ using HospitalManagementSystem.Models;
             WriteLiteral("\r\n            </td>\r\n            <td>\r\n                ");
 #nullable restore
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 #line 37 "C:\Users\LENOVO 310\Documents\GitHub\HospitalManagementSystem_NCSProject\HospitalManagementSystem\Views\Patients\Index.cshtml"
+=======
+#line 43 "C:\Users\LENOVO 310\Documents\GitHub\HospitalManagementSystem_NCSProject\HospitalManagementSystem\Views\Patients\Index.cshtml"
+>>>>>>> Stashed changes
 =======
 #line 43 "C:\Users\LENOVO 310\Documents\GitHub\HospitalManagementSystem_NCSProject\HospitalManagementSystem\Views\Patients\Index.cshtml"
 >>>>>>> Stashed changes
@@ -202,7 +237,11 @@ using HospitalManagementSystem.Models;
             WriteLiteral("\r\n            </td>\r\n            <td>\r\n                ");
 #nullable restore
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 #line 40 "C:\Users\LENOVO 310\Documents\GitHub\HospitalManagementSystem_NCSProject\HospitalManagementSystem\Views\Patients\Index.cshtml"
+=======
+#line 46 "C:\Users\LENOVO 310\Documents\GitHub\HospitalManagementSystem_NCSProject\HospitalManagementSystem\Views\Patients\Index.cshtml"
+>>>>>>> Stashed changes
 =======
 #line 46 "C:\Users\LENOVO 310\Documents\GitHub\HospitalManagementSystem_NCSProject\HospitalManagementSystem\Views\Patients\Index.cshtml"
 >>>>>>> Stashed changes
@@ -214,7 +253,11 @@ using HospitalManagementSystem.Models;
             WriteLiteral("\r\n            </td>\r\n            <td>\r\n                ");
 #nullable restore
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 #line 43 "C:\Users\LENOVO 310\Documents\GitHub\HospitalManagementSystem_NCSProject\HospitalManagementSystem\Views\Patients\Index.cshtml"
+=======
+#line 49 "C:\Users\LENOVO 310\Documents\GitHub\HospitalManagementSystem_NCSProject\HospitalManagementSystem\Views\Patients\Index.cshtml"
+>>>>>>> Stashed changes
 =======
 #line 49 "C:\Users\LENOVO 310\Documents\GitHub\HospitalManagementSystem_NCSProject\HospitalManagementSystem\Views\Patients\Index.cshtml"
 >>>>>>> Stashed changes
@@ -225,7 +268,11 @@ using HospitalManagementSystem.Models;
 #nullable disable
             WriteLiteral("\r\n            </td>\r\n            <td>\r\n                ");
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2dff7439c69e80ed81c2840efd496b51b12551949409", async() => {
+=======
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "48c57fb8d36096abab88d10dcc249c01b8f98cca12077", async() => {
+>>>>>>> Stashed changes
 =======
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "48c57fb8d36096abab88d10dcc249c01b8f98cca12077", async() => {
 >>>>>>> Stashed changes
@@ -243,7 +290,11 @@ using HospitalManagementSystem.Models;
             BeginWriteTagHelperAttribute();
 #nullable restore
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 #line 46 "C:\Users\LENOVO 310\Documents\GitHub\HospitalManagementSystem_NCSProject\HospitalManagementSystem\Views\Patients\Index.cshtml"
+=======
+#line 52 "C:\Users\LENOVO 310\Documents\GitHub\HospitalManagementSystem_NCSProject\HospitalManagementSystem\Views\Patients\Index.cshtml"
+>>>>>>> Stashed changes
 =======
 #line 52 "C:\Users\LENOVO 310\Documents\GitHub\HospitalManagementSystem_NCSProject\HospitalManagementSystem\Views\Patients\Index.cshtml"
 >>>>>>> Stashed changes
@@ -264,7 +315,11 @@ using HospitalManagementSystem.Models;
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral(" |\r\n                ");
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2dff7439c69e80ed81c2840efd496b51b125519411627", async() => {
+=======
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "48c57fb8d36096abab88d10dcc249c01b8f98cca14296", async() => {
+>>>>>>> Stashed changes
 =======
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "48c57fb8d36096abab88d10dcc249c01b8f98cca14296", async() => {
 >>>>>>> Stashed changes
@@ -282,7 +337,11 @@ using HospitalManagementSystem.Models;
             BeginWriteTagHelperAttribute();
 #nullable restore
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 #line 47 "C:\Users\LENOVO 310\Documents\GitHub\HospitalManagementSystem_NCSProject\HospitalManagementSystem\Views\Patients\Index.cshtml"
+=======
+#line 53 "C:\Users\LENOVO 310\Documents\GitHub\HospitalManagementSystem_NCSProject\HospitalManagementSystem\Views\Patients\Index.cshtml"
+>>>>>>> Stashed changes
 =======
 #line 53 "C:\Users\LENOVO 310\Documents\GitHub\HospitalManagementSystem_NCSProject\HospitalManagementSystem\Views\Patients\Index.cshtml"
 >>>>>>> Stashed changes
@@ -303,7 +362,11 @@ using HospitalManagementSystem.Models;
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral(" |\r\n                ");
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2dff7439c69e80ed81c2840efd496b51b125519413852", async() => {
+=======
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "48c57fb8d36096abab88d10dcc249c01b8f98cca16521", async() => {
+>>>>>>> Stashed changes
 =======
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "48c57fb8d36096abab88d10dcc249c01b8f98cca16521", async() => {
 >>>>>>> Stashed changes
@@ -321,7 +384,11 @@ using HospitalManagementSystem.Models;
             BeginWriteTagHelperAttribute();
 #nullable restore
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 #line 48 "C:\Users\LENOVO 310\Documents\GitHub\HospitalManagementSystem_NCSProject\HospitalManagementSystem\Views\Patients\Index.cshtml"
+=======
+#line 54 "C:\Users\LENOVO 310\Documents\GitHub\HospitalManagementSystem_NCSProject\HospitalManagementSystem\Views\Patients\Index.cshtml"
+>>>>>>> Stashed changes
 =======
 #line 54 "C:\Users\LENOVO 310\Documents\GitHub\HospitalManagementSystem_NCSProject\HospitalManagementSystem\Views\Patients\Index.cshtml"
 >>>>>>> Stashed changes
@@ -343,7 +410,11 @@ using HospitalManagementSystem.Models;
             WriteLiteral("\r\n            </td>\r\n        </tr>\r\n");
 #nullable restore
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 #line 51 "C:\Users\LENOVO 310\Documents\GitHub\HospitalManagementSystem_NCSProject\HospitalManagementSystem\Views\Patients\Index.cshtml"
+=======
+#line 57 "C:\Users\LENOVO 310\Documents\GitHub\HospitalManagementSystem_NCSProject\HospitalManagementSystem\Views\Patients\Index.cshtml"
+>>>>>>> Stashed changes
 =======
 #line 57 "C:\Users\LENOVO 310\Documents\GitHub\HospitalManagementSystem_NCSProject\HospitalManagementSystem\Views\Patients\Index.cshtml"
 >>>>>>> Stashed changes

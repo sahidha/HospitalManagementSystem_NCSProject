@@ -1,5 +1,9 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 #pragma checksum "C:\Users\LENOVO 310\Documents\GitHub\HospitalManagementSystem_NCSProject\HospitalManagementSystem\Views\Shared\_Layout.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "6744490d9e014da561418e7a8d5c238c28203d1b"
+=======
+#pragma checksum "C:\Users\LENOVO 310\Documents\GitHub\HospitalManagementSystem_NCSProject\HospitalManagementSystem\Views\Shared\_Layout.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "12035f9e567306a1492659653b7489774b4768f2"
+>>>>>>> Stashed changes
 =======
 #pragma checksum "C:\Users\LENOVO 310\Documents\GitHub\HospitalManagementSystem_NCSProject\HospitalManagementSystem\Views\Shared\_Layout.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "12035f9e567306a1492659653b7489774b4768f2"
 >>>>>>> Stashed changes
@@ -83,7 +87,11 @@ using HospitalManagementSystem.Models;
         {
             WriteLiteral("<!DOCTYPE html>\r\n<html lang=\"en\">\r\n");
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6744490d9e014da561418e7a8d5c238c28203d1b8377", async() => {
+=======
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "12035f9e567306a1492659653b7489774b4768f29292", async() => {
+>>>>>>> Stashed changes
 =======
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "12035f9e567306a1492659653b7489774b4768f29292", async() => {
 >>>>>>> Stashed changes
@@ -97,7 +105,11 @@ using HospitalManagementSystem.Models;
 #nullable disable
                 WriteLiteral(" - HospitalManagementSystem</title>\r\n    ");
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "6744490d9e014da561418e7a8d5c238c28203d1b9081", async() => {
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "12035f9e567306a1492659653b7489774b4768f29996", async() => {
+>>>>>>> Stashed changes
 =======
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "12035f9e567306a1492659653b7489774b4768f29996", async() => {
 >>>>>>> Stashed changes
@@ -116,7 +128,11 @@ using HospitalManagementSystem.Models;
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n    ");
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "6744490d9e014da561418e7a8d5c238c28203d1b10259", async() => {
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "12035f9e567306a1492659653b7489774b4768f211174", async() => {
+>>>>>>> Stashed changes
 =======
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "12035f9e567306a1492659653b7489774b4768f211174", async() => {
 >>>>>>> Stashed changes
@@ -147,10 +163,17 @@ using HospitalManagementSystem.Models;
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n");
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6744490d9e014da561418e7a8d5c238c28203d1b12142", async() => {
                 WriteLiteral("\r\n    <header>\r\n        <nav class=\"navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3\">\r\n            <div class=\"container\">\r\n                ");
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6744490d9e014da561418e7a8d5c238c28203d1b12598", async() => {
                     WriteLiteral("HospitalManagementSystem");
+=======
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "12035f9e567306a1492659653b7489774b4768f213057", async() => {
+                WriteLiteral("\r\n    <header>\r\n        <nav class=\"navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3\">\r\n            <div class=\"container\">\r\n                ");
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "12035f9e567306a1492659653b7489774b4768f213513", async() => {
+                    WriteLiteral("HM System Portal");
+>>>>>>> Stashed changes
 =======
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "12035f9e567306a1492659653b7489774b4768f213057", async() => {
                 WriteLiteral("\r\n    <header>\r\n        <nav class=\"navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3\">\r\n            <div class=\"container\">\r\n                ");
@@ -185,7 +208,11 @@ using HospitalManagementSystem.Models;
                         <li class=""nav-item"">
                             ");
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6744490d9e014da561418e7a8d5c238c28203d1b14919", async() => {
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "12035f9e567306a1492659653b7489774b4768f215826", async() => {
+>>>>>>> Stashed changes
 =======
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "12035f9e567306a1492659653b7489774b4768f215826", async() => {
 >>>>>>> Stashed changes
@@ -209,14 +236,20 @@ using HospitalManagementSystem.Models;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                 WriteLiteral("\r\n                        </li>\r\n                        <li class=\"nav-item\">\r\n                            ");
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6744490d9e014da561418e7a8d5c238c28203d1b16758", async() => {
                     WriteLiteral("Privacy");
 =======
+=======
+>>>>>>> Stashed changes
                 WriteLiteral("\r\n                        </li>\r\n");
                 WriteLiteral("                        <li class=\"nav-item\">\r\n                            ");
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "12035f9e567306a1492659653b7489774b4768f217700", async() => {
                     WriteLiteral("Patient Management");
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                 }
                 );
@@ -259,7 +292,11 @@ using HospitalManagementSystem.Models;
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                        </li>\r\n                    </ul>\r\n                    ");
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "6744490d9e014da561418e7a8d5c238c28203d1b18570", async() => {
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "12035f9e567306a1492659653b7489774b4768f221376", async() => {
+>>>>>>> Stashed changes
 =======
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "12035f9e567306a1492659653b7489774b4768f221376", async() => {
 >>>>>>> Stashed changes
@@ -279,7 +316,11 @@ using HospitalManagementSystem.Models;
                 WriteLiteral("\r\n                </div>\r\n            </div>\r\n        </nav>\r\n    </header>\r\n    <div class=\"container\">\r\n        <main role=\"main\" class=\"pb-3\">\r\n            ");
 #nullable restore
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 #line 35 "C:\Users\LENOVO 310\Documents\GitHub\HospitalManagementSystem_NCSProject\HospitalManagementSystem\Views\Shared\_Layout.cshtml"
+=======
+#line 41 "C:\Users\LENOVO 310\Documents\GitHub\HospitalManagementSystem_NCSProject\HospitalManagementSystem\Views\Shared\_Layout.cshtml"
+>>>>>>> Stashed changes
 =======
 #line 41 "C:\Users\LENOVO 310\Documents\GitHub\HospitalManagementSystem_NCSProject\HospitalManagementSystem\Views\Shared\_Layout.cshtml"
 >>>>>>> Stashed changes
@@ -289,8 +330,13 @@ using HospitalManagementSystem.Models;
 #line hidden
 #nullable disable
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                 WriteLiteral("\r\n        </main>\r\n    </div>\r\n\r\n    <footer class=\"border-top footer text-muted\">\r\n        <div class=\"container\">\r\n            &copy; 2022 - HospitalManagementSystem - ");
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6744490d9e014da561418e7a8d5c238c28203d1b20379", async() => {
+=======
+                WriteLiteral("\r\n        </main>\r\n    </div>\r\n\r\n    <footer class=\"border-top footer text-muted\">\r\n        <div class=\"container\">\r\n            &copy; 2022 - HM System Portal - ");
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "12035f9e567306a1492659653b7489774b4768f223179", async() => {
+>>>>>>> Stashed changes
 =======
                 WriteLiteral("\r\n        </main>\r\n    </div>\r\n\r\n    <footer class=\"border-top footer text-muted\">\r\n        <div class=\"container\">\r\n            &copy; 2022 - HM System Portal - ");
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "12035f9e567306a1492659653b7489774b4768f223179", async() => {
@@ -315,7 +361,11 @@ using HospitalManagementSystem.Models;
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n        </div>\r\n    </footer>\r\n    ");
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6744490d9e014da561418e7a8d5c238c28203d1b22061", async() => {
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "12035f9e567306a1492659653b7489774b4768f224863", async() => {
+>>>>>>> Stashed changes
 =======
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "12035f9e567306a1492659653b7489774b4768f224863", async() => {
 >>>>>>> Stashed changes
@@ -333,7 +383,11 @@ using HospitalManagementSystem.Models;
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n    ");
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6744490d9e014da561418e7a8d5c238c28203d1b23162", async() => {
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "12035f9e567306a1492659653b7489774b4768f225964", async() => {
+>>>>>>> Stashed changes
 =======
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "12035f9e567306a1492659653b7489774b4768f225964", async() => {
 >>>>>>> Stashed changes
@@ -351,7 +405,11 @@ using HospitalManagementSystem.Models;
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n    ");
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6744490d9e014da561418e7a8d5c238c28203d1b24263", async() => {
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "12035f9e567306a1492659653b7489774b4768f227065", async() => {
+>>>>>>> Stashed changes
 =======
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "12035f9e567306a1492659653b7489774b4768f227065", async() => {
 >>>>>>> Stashed changes
@@ -365,7 +423,11 @@ using HospitalManagementSystem.Models;
                 __tagHelperExecutionContext.AddTagHelperAttribute(__tagHelperAttribute_15);
 #nullable restore
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 #line 46 "C:\Users\LENOVO 310\Documents\GitHub\HospitalManagementSystem_NCSProject\HospitalManagementSystem\Views\Shared\_Layout.cshtml"
+=======
+#line 52 "C:\Users\LENOVO 310\Documents\GitHub\HospitalManagementSystem_NCSProject\HospitalManagementSystem\Views\Shared\_Layout.cshtml"
+>>>>>>> Stashed changes
 =======
 #line 52 "C:\Users\LENOVO 310\Documents\GitHub\HospitalManagementSystem_NCSProject\HospitalManagementSystem\Views\Shared\_Layout.cshtml"
 >>>>>>> Stashed changes
@@ -385,7 +447,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_ScriptTagHelper.AppendVersion = true;
                 WriteLiteral("\r\n    ");
 #nullable restore
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 #line 47 "C:\Users\LENOVO 310\Documents\GitHub\HospitalManagementSystem_NCSProject\HospitalManagementSystem\Views\Shared\_Layout.cshtml"
+=======
+#line 53 "C:\Users\LENOVO 310\Documents\GitHub\HospitalManagementSystem_NCSProject\HospitalManagementSystem\Views\Shared\_Layout.cshtml"
+>>>>>>> Stashed changes
 =======
 #line 53 "C:\Users\LENOVO 310\Documents\GitHub\HospitalManagementSystem_NCSProject\HospitalManagementSystem\Views\Shared\_Layout.cshtml"
 >>>>>>> Stashed changes

@@ -1,5 +1,9 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 #pragma checksum "C:\Users\LENOVO 310\Documents\GitHub\HospitalManagementSystem_NCSProject\HospitalManagementSystem\Views\Shared\_LoginPartial.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "eb6b06876c970ec21dbfdcf2953e86f4184913c4"
+=======
+#pragma checksum "C:\Users\LENOVO 310\Documents\GitHub\HospitalManagementSystem_NCSProject\HospitalManagementSystem\Views\Shared\_LoginPartial.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "4aa65f400aaab4417787d634d0e9017b4aa90a14"
+>>>>>>> Stashed changes
 =======
 #pragma checksum "C:\Users\LENOVO 310\Documents\GitHub\HospitalManagementSystem_NCSProject\HospitalManagementSystem\Views\Shared\_LoginPartial.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "4aa65f400aaab4417787d634d0e9017b4aa90a14"
 >>>>>>> Stashed changes
@@ -87,7 +91,11 @@ using Microsoft.AspNetCore.Identity;
 #nullable disable
             WriteLiteral("    <li class=\"nav-item\">\r\n        ");
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "eb6b06876c970ec21dbfdcf2953e86f4184913c46796", async() => {
+=======
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4aa65f400aaab4417787d634d0e9017b4aa90a146486", async() => {
+>>>>>>> Stashed changes
 =======
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4aa65f400aaab4417787d634d0e9017b4aa90a146486", async() => {
 >>>>>>> Stashed changes
@@ -119,7 +127,11 @@ using Microsoft.AspNetCore.Identity;
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n    </li>\r\n    <li class=\"nav-item\">\r\n        ");
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "eb6b06876c970ec21dbfdcf2953e86f4184913c48751", async() => {
+=======
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4aa65f400aaab4417787d634d0e9017b4aa90a148441", async() => {
+>>>>>>> Stashed changes
 =======
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4aa65f400aaab4417787d634d0e9017b4aa90a148441", async() => {
 >>>>>>> Stashed changes
@@ -170,8 +182,13 @@ else
 #nullable disable
             WriteLiteral("    <li class=\"nav-item\">\r\n        ");
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "eb6b06876c970ec21dbfdcf2953e86f4184913c412032", async() => {
                 WriteLiteral("Register");
+=======
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4aa65f400aaab4417787d634d0e9017b4aa90a1411728", async() => {
+                WriteLiteral("Login");
+>>>>>>> Stashed changes
 =======
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4aa65f400aaab4417787d634d0e9017b4aa90a1411728", async() => {
                 WriteLiteral("Login");
@@ -193,6 +210,7 @@ else
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             WriteLiteral("\r\n    </li>\r\n    <li class=\"nav-item\">\r\n        ");
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "eb6b06876c970ec21dbfdcf2953e86f4184913c413523", async() => {
                 WriteLiteral("Login");
@@ -212,6 +230,8 @@ else
             }
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
             WriteLiteral("\r\n    </li>\r\n");
