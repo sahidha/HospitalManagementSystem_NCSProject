@@ -21,15 +21,12 @@ namespace HospitalManagementSystem.Controllers
         }
 
         // GET: Patients
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
+
         public async Task<IActionResult> Index()
         {
             return View(await _context.Patient.ToListAsync());
         }
-=======
-=======
->>>>>>> Stashed changes
+
         [Authorize]
         public async Task<IActionResult> Index(string searchstr)
          {
@@ -57,7 +54,7 @@ namespace HospitalManagementSystem.Controllers
 
         //     return View(await Patients.ToListAsync());
         // }
->>>>>>> Stashed changes
+
 
         // GET: Patients/Details/5
         [Authorize]
