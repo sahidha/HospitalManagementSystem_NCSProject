@@ -7,9 +7,11 @@ p {
     color:black;
 }
 body {
-    background-image: url("download.jpg");
+    
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 100%;
+    background-image: url('Images/abstract-bg.jpg');
+    
 }
 #homeh1 {
     height:250px;

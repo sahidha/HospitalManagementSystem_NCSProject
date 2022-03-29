@@ -12,7 +12,7 @@ using Microsoft.AspNetCore.Identity;
 
 namespace HospitalManagementSystem.Controllers
 {
-    [Authorize]
+    [Authorize(Roles = "Admin")]
     public class StaffsController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -166,7 +166,8 @@ namespace HospitalManagementSystem.Controllers
             {
                 Email = email,
                 UserName = email,
-                PhoneNumber = phoneNum
+                PhoneNumber = phoneNum,
+                EmailConfirmed = true
             };
             IdentityResult identityResult = await userManager.CreateAsync(user, password);
             SetUserID(user.Id);
