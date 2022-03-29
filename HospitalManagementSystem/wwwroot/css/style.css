@@ -1,8 +1,4 @@
-﻿h1 {
-    font-size: 200px;
-    font-weight:bold;
-    color:black;
-}
+﻿
 p {
     color:black;
 }
@@ -14,5 +10,15 @@ body {
     
 }
 #homeh1 {
-    height:250px;
+    height: 250px;
+    font-weight: bold;
+    color: black;
+    padding-bottom:100px;
+}
+#alert {
+    color:red;
+}
+#logo {
+    height:200px;
+    width:250px;
 }
