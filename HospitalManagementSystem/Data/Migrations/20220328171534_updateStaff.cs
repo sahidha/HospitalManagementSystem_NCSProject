@@ -7,6 +7,14 @@ namespace HospitalManagementSystem.Data.Migrations
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.DropIndex(
+                name: "IX_Staff_aspNetID",
+                table: "Staff");
+
+            migrationBuilder.DropForeignKey(
+                name: "FK_Staff_AspNetUsers_aspNetID",
+                table: "Staff");
+
             migrationBuilder.DropTable(
                 name: "Staff");
 

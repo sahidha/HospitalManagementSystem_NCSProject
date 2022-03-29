@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using HospitalManagementSystem.Data;
 using HospitalManagementSystem.Models;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 
 namespace HospitalManagementSystem.Controllers
 {
@@ -15,10 +16,12 @@ namespace HospitalManagementSystem.Controllers
     public class StaffsController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private readonly UserManager<IdentityUser> userManager;
 
-        public StaffsController(ApplicationDbContext context)
+        public StaffsController(ApplicationDbContext context, UserManager<IdentityUser> userManager)
         {
             _context = context;
+            this.userManager = userManager;
         }
 
         // GET: Staffs
@@ -58,8 +61,11 @@ namespace HospitalManagementSystem.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("ID,Name,Speciality,PhoneNumber,Email,Password,aspNetID")] Staff staff)
         {
+           
             if (ModelState.IsValid)
             {
+                await CreateAccountAsync(staff.Email, staff.Password, staff.PhoneNumber);
+                staff.aspNetID = GetUserID();
                 _context.Add(staff);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -150,6 +156,31 @@ namespace HospitalManagementSystem.Controllers
         private bool StaffExists(int id)
         {
             return _context.Staff.Any(e => e.ID == id);
+        }
+
+        public async Task CreateAccountAsync(string email, string password, string phoneNum)
+        {
+
+
+            var user = new IdentityUser
+            {
+                Email = email,
+                UserName = email,
+                PhoneNumber = phoneNum
+            };
+            IdentityResult identityResult = await userManager.CreateAsync(user, password);
+            SetUserID(user.Id);
+            await userManager.AddToRoleAsync(user, "Doctor");
+        }
+
+        private string userID;
+        public void SetUserID(string userid)
+        {
+            userID = userid;
+        }
+        public string GetUserID()
+        {
+            return userID;
         }
     }
 }
