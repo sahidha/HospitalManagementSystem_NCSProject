@@ -7,13 +7,18 @@ namespace HospitalManagementSystem.Models
     public class Staff
     {
         //DoctorInChargeID in Patient will reference StaffID
-        public int StaffID { get; set; }
-        public string StaffName { get; set; }
-        public string Specialty { get; set; }
-
-        //Using AspNetUsers properties such as Username, email & password
-        public IdentityUser AspNetUsers { get; set; }
-        [ForeignKey("AspNetUsers")]
+        [Key]
+        public int ID { get; set; }
+        public string Name { get; set; }
+        public string Speciality { get; set; }
+        [DataType(DataType.PhoneNumber)]
+        public string PhoneNumber { get; set; }
+        [DataType(DataType.EmailAddress)]
+        public string Email { get; set; }
+        [DataType(DataType.Password)]
+        public string Password { get; set; }
+        
         public string aspNetID { get; set; }
+
     }
 }

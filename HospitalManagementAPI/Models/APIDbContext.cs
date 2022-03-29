@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 
 namespace HospitalManagementAPI.Models
 {
@@ -9,8 +8,6 @@ namespace HospitalManagementAPI.Models
         {
 
         }
-
-        public DbSet<ApplicationUser> applicationUsers { get; set; }
-        public DbSet<Staff> staffs { get; set; }
+        public DbSet<Staff> Staffs { get; set; }
     }
 }

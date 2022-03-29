@@ -11,27 +11,27 @@ namespace HospitalManagementAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class StaffsController : ControllerBase
+    public class StaffController : ControllerBase
     {
         private readonly APIDbContext _context;
 
-        public StaffsController(APIDbContext context)
+        public StaffController(APIDbContext context)
         {
             _context = context;
         }
 
-        // GET: api/Staffs
+        // GET: api/Staff
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Staff>>> Getstaffs()
         {
-            return await _context.staffs.ToListAsync();
+            return await _context.Staffs.ToListAsync();
         }
 
-        // GET: api/Staffs/5
+        // GET: api/Staff/5
         [HttpGet("{id}")]
         public async Task<ActionResult<Staff>> GetStaff(int id)
         {
-            var staff = await _context.staffs.FindAsync(id);
+            var staff = await _context.Staffs.FindAsync(id);
 
             if (staff == null)
             {
@@ -41,7 +41,7 @@ namespace HospitalManagementAPI.Controllers
             return staff;
         }
 
-        // PUT: api/Staffs/5
+        // PUT: api/Staff/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
         public async Task<IActionResult> PutStaff(int id, Staff staff)
@@ -72,28 +72,28 @@ namespace HospitalManagementAPI.Controllers
             return NoContent();
         }
 
-        // POST: api/Staffs
+        // POST: api/Staff
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
         public async Task<ActionResult<Staff>> PostStaff(Staff staff)
         {
-            _context.staffs.Add(staff);
+            _context.Staffs.Add(staff);
             await _context.SaveChangesAsync();
 
             return CreatedAtAction("GetStaff", new { id = staff.Id }, staff);
         }
 
-        // DELETE: api/Staffs/5
+        // DELETE: api/Staff/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteStaff(int id)
         {
-            var staff = await _context.staffs.FindAsync(id);
+            var staff = await _context.Staffs.FindAsync(id);
             if (staff == null)
             {
                 return NotFound();
             }
 
-            _context.staffs.Remove(staff);
+            _context.Staffs.Remove(staff);
             await _context.SaveChangesAsync();
 
             return NoContent();
@@ -101,7 +101,7 @@ namespace HospitalManagementAPI.Controllers
 
         private bool StaffExists(int id)
         {
-            return _context.staffs.Any(e => e.Id == id);
+            return _context.Staffs.Any(e => e.Id == id);
         }
     }
 }
