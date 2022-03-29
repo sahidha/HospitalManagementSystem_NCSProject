@@ -81,15 +81,22 @@ namespace HospitalManagementSystem
         //    IdentityResult roleResult;
         //    //Adding Addmin Role  
         //    var roleCheck = await RoleManager.RoleExistsAsync("Doctor");
+
         //    if (!roleCheck)
         //    {
-        //        //create the roles and seed them to the database  
+        //        //create the roles and seed them to the database
         //        roleResult = await RoleManager.CreateAsync(new IdentityRole("Doctor"));
         //    }
+        //    var roleCheck1 = await RoleManager.RoleExistsAsync("Admin");
+        //    if (!roleCheck1)
+        //    {
+        //        //create the roles and seed them to the database
+        //        roleResult = await RoleManager.CreateAsync(new IdentityRole("Admin"));
+        //    }
         //    //Assign Admin role to the main User here we have given our newly loregistered login id for Admin management  
-        //    //IdentityUser user = await UserManager.FindByEmailAsync("admin@gmail.com");
-        //    //var User = new IdentityUser();
-        //    //await UserManager.AddToRoleAsync(user, "Admin");
+        //    IdentityUser user = await UserManager.FindByEmailAsync("admin@gmail.com");
+        //    var User = new IdentityUser();
+        //    await UserManager.AddToRoleAsync(user, "Admin");
 
         //}
     }

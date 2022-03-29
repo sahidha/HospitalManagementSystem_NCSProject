@@ -14,5 +14,15 @@ body {
     
 }
 #homeh1 {
-    height:250px;
+    height: 250px;
+    padding-bottom: 50px;
+}
+
+#logoimg {
+    height: 200px;
+    width: 250px;
+}
+
+#alert {
+    color: red;
 }
